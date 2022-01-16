@@ -1,0 +1,70 @@
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+.fixed {
+  width: 100%;
+  z-index: 999;
+}
+.container_tops {
+  width: 100%;
+}
+.container_tops Text {
+  font-size: 40px;
+  height: 100px;
+  line-height: 100px;
+  margin-left: 30px;
+  white-space: nowrap;
+}
+.container_search {
+  padding: 40px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container_search_input {
+  width: 80%;
+  border-radius: 100px;
+  height: 100px;
+  background-color: #fff;
+}
+.container_list {
+  padding: 0 20px;
+}
+.container_list_item {
+  margin-top: 20px;
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px 20px;
+}
+.container_list_item_title {
+  font-size: 40px;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  /*! autoprefixer: off */
+  -webkit-box-orient: vertical;
+  /* autoprefixer: on */
+  word-break: break-all;
+}
+.container_list_item_content {
+  color: #333;
+  font-size: 30px;
+  margin-top: 20px;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /*! autoprefixer: off */
+  -webkit-box-orient: vertical;
+  /* autoprefixer: on */
+  -webkit-line-clamp: 3;
+}
+.container_list_item_count {
+  font-size: 28px;
+  color: #9e9e9e;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
